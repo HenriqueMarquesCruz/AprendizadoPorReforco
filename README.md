@@ -34,6 +34,31 @@ O **Trabalho Prático 1 (TP1)** consiste na implementação de algoritmos de Apr
 
 ---
 
+## 🎯 TP2 – PPO para Blackjack com Redes Neurais
+
+### 📌 Descrição
+O **Trabalho Prático 2 (TP2)** explora a aplicação do algoritmo **Proximal Policy Optimization (PPO)** para o problema do Blackjack. Diferentemente do TP1, o PPO utiliza **redes neurais artificiais** como aproximadores de função em uma arquitetura ator-crítico.
+
+### ⚙️ Objetivos
+- Implementar o algoritmo PPO
+- Utilizar redes neurais para representar a política e a função valor
+- Avaliar diferentes arquiteturas de redes neurais
+- Comparar os resultados com os métodos tabulares do TP1
+- Analisar o impacto da complexidade da rede no desempenho do agente
+
+### 🤖 Método
+- Algoritmo: PPO (Proximal Policy Optimization)
+- Arquitetura: Actor-Critic
+- Codificação dos estados: One-Hot Encoding
+- Redes avaliadas:
+  - 32
+  - 32-16
+  - 32-16-16
+
+### 📈 Principais Resultados
+Os experimentos mostraram que as arquiteturas com duas e três camadas escondidas obtiveram desempenho superior aos métodos tabulares estudados no TP1, atingindo recompensas médias próximas de **−0,06**, enquanto SARSA e Q-Learning convergiram para aproximadamente **−0,10**.
+
+---
 
 ## 📌 Observações
 
